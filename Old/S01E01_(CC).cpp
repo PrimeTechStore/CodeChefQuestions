@@ -1,0 +1,16 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        int n = 0;
+        cin >> n;
+        string ans = "";
+        ans = n < 21 ? "Yes" : "No";
+        cout << ans << endl;
+    }
+    return 0;
+}
